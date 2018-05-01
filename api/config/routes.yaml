@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\IndexController::index
+#yandex_tic:
+#    path: /yandex-tic
+#    controller: App\Controller\YandexTicController::number

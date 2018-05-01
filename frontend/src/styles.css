@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-nav > li a {
+    cursor: pointer;
+}
+
+/*.navbar-nav > li > a.profile-image {*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+
+/*.profile-img {*/
+    /*margin-right: 5px;*/
+    /*float: left;*/
+    /*background: url(http://placehold.it/18x18) 50% 50% no-repeat; !* 50% 50% centers image in div *!*/
+    /*background-size: auto 100%; !* Interchange this value depending on prefering width vs. height *!*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+/*}*/
