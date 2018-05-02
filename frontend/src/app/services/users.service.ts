@@ -6,15 +6,13 @@ import {User} from "../models/user";
 import {ApiService} from "./api.service";
 import {catchError} from "rxjs/operators";
 import {Token} from "../models/token";
-import {AuthService} from "./auth.service";
 
 @Injectable()
 export class UsersService extends ApiService {
     api = 'users';
 
-    constructor(protected http: HttpClient,
-                protected as: AuthService) {
-        super(http, as);
+    constructor(protected http: HttpClient) {
+        super(http);
     }
 
     public register(user: User): Observable<HttpResponse<User>> {
